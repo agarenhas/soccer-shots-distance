@@ -71,7 +71,7 @@ getwd()
 
 ## Saving the data frame from the CSV file into an R object
 
-df <- read.csv("all_competitions_combined.csv")
+df <- read.csv("soccer_shots_distance.csv")
 # Summary of the data in the data frame
 summary(df)
 # Convert each column of the data frame into a variable
@@ -1314,4 +1314,5 @@ plot(pred.l_gam,res.d_gam) ; abline(0,0,col="gray", lwd=2)
 # We see that there is still a trend with the residuals, so with this
 # model we haven't solved the problem we had with the other models
 # Perhaps giving more freedom to the GAM with the f functions we could achieve a 
+
 # better result
